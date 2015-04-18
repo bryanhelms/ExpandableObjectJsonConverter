@@ -1,0 +1,20 @@
+﻿{
+    "version": "1.0.0-*",
+    "compilationOptions": {
+        "languageVersion": "csharp6",
+        "warningsAsErrors": true
+    },
+    "dependencies": {
+        "xunit.runner.kre": "1.0.0-beta3-*",
+        "ExpandableObjectJsonConverter": "1.0.0-*"
+    },
+    "frameworks": {
+        "aspnet50": {
+            "dependencies": {
+            }
+        }
+    },
+    "commands": {
+        "test": "xunit.runner.kre"
+    }
+}
