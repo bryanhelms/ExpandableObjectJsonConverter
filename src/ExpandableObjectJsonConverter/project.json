@@ -1,16 +1,14 @@
 ﻿{
     "version": "1.0.0-*",
-    "dependencies": {
+    "compilationOptions": {
+        "languageVersion": "csharp6"
     },
-
+    "dependencies": {
+        "Newtonsoft.Json": "6.0.8"
+    },
     "frameworks" : {
         "aspnet50" : { 
             "dependencies": {
-            }
-        },
-        "aspnetcore50" : { 
-            "dependencies": {
-                "System.Runtime": "4.0.20-beta-22523"
             }
         }
     }

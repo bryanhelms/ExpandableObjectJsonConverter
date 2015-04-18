@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.22609.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ExpandableObjectJsonConverter", "ExpandableObjectJsonConverter\ExpandableObjectJsonConverter.kproj", "{B110C8E0-F952-44AA-A82C-86585624BDC6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FFD277B2-AC0E-42A1-B4CC-FC4179CED2D2}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ExpandableObjectJsonConverter", "src\ExpandableObjectJsonConverter\ExpandableObjectJsonConverter.kproj", "{B110C8E0-F952-44AA-A82C-86585624BDC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +20,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B110C8E0-F952-44AA-A82C-86585624BDC6} = {FFD277B2-AC0E-42A1-B4CC-FC4179CED2D2}
 	EndGlobalSection
 EndGlobal
